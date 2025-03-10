@@ -13,3 +13,6 @@ def draw_line(screen, shape):
 
 def draw_square(screen, shape):
     pygame.draw.rect(screen, shape['color'], (shape['position'][0] - shape['radius'], shape['position'][1] - shape['radius'], shape['radius'] * 2, shape['radius'] * 2))
+
+def draw_tri(screen, shape):
+    pygame.draw.polygon(screen, shape['color'], [[(shape['position'][0]), (shape['position'][1] - shape['radius'])],[(shape['position'][0] - shape['radius']), (shape['position'][1] + shape['radius'])],[(shape['position'][0] + shape['radius']), (shape['position'][1] + shape['radius'])]])

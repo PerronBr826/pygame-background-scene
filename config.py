@@ -6,6 +6,8 @@ BLACK = (28, 28, 28)
 RED = (255, 100, 100)
 GREEN = (100, 255, 100)
 BLUE = (100, 100, 255)
+YELLOW = (255,255,0)
+BROWN = (165,42,42)
 
 # Game window dimensions
 WINDOW_WIDTH = 800
@@ -15,4 +17,4 @@ WINDOW_HEIGHT = 600
 TITLE = "Pygame Template"
 
 # Frame rate (frames per second)
-FPS = 60
+FPS = 1
